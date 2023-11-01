@@ -1,5 +1,5 @@
-const meses = ['enero', 'febrero', 'marzo','abril', 'mayo', 'junio', 
-'julio', 'agosto', 'septiemnbre', 'octubre', 'noviembre', 'diciembre'];
+const meses = ['Enero', 'Febrero', 'Marzo','Abril', 'Mayo', 'Junio', 
+'Julio', 'Agosto', 'Septiemnbre', 'Octubre', 'Noviembre', 'Diciembre'];
 
 document.write('<h2>Listado de Meses</h2>')
 document.write('<ul>')
