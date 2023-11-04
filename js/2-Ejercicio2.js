@@ -26,8 +26,7 @@ document.write(`<p>El arreglo contiene ${arrayDeCiudades.length} elementos</p>`)
 document.write('<ul>');
 document.write(`<li>Elemento 1er posición: ${arrayDeCiudades[0]}</li>`);
 document.write(`<li>Elemento 2da posición: ${arrayDeCiudades[1]}</li>`);
-arrayDeCiudades.splice(1, 0, "Buenos Aires Argentina");
-document.write(`<li>Elemento 2da posición: ${arrayDeCiudades[1]} (Se reemplazo Barcelona)</li>`);
+document.write(`<li>Elemento 2da posición: ${arrayDeCiudades[1] = "Buenos Aires, Argentina"} (Se reemplazo Barcelona)</li>`);
 document.write(`<li>Elemento 3er posición: ${arrayDeCiudades[2]}</li>`);
 document.write(`<li>Elemento ultima posición: ${arrayDeCiudades[arrayDeCiudades.length-1]}</li>`);
 arrayDeCiudades.push('Paris, Francia');
