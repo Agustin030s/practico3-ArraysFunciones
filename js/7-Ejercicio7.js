@@ -8,6 +8,13 @@ const numeroIngresado = parseInt(
 
 const tablaDeMultiplicar = (numero) => {
   let resultado = undefined;
+  document.write('<table class="m-5">');
+  document.write(`<thead>
+    <tr>
+        <th>Multiplicación</th>
+        <th>Resultado</th>
+    </tr>
+    </thead>`);
   for (let i = 1; i <= 10; i++) {
     resultado = numero * i;
     document.write("<tr>");
@@ -15,19 +22,11 @@ const tablaDeMultiplicar = (numero) => {
     document.write(`<td>${resultado}</td>`);
     document.write("</tr>");
   }
+
+  document.write("</tbody>");
+  document.write("</table>");
 };
 
 document.write(`<h2>Tabla de Multiplicar del ${numeroIngresado}</h2>`);
 
-document.write('<table class="m-5">');
-document.write(`<thead>
-<tr>
-    <th>Multiplicación</th>
-    <th>Resultado</th>
-</tr>
-</thead>`);
-
 tablaDeMultiplicar(numeroIngresado);
-
-document.write("</tbody>");
-document.write("</table>");
