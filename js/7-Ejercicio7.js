@@ -14,7 +14,6 @@ const tablaDeMultiplicar = (numero) => {
     document.write(`<td>${numero} x ${i}</td>`);
     document.write(`<td>${resultado}</td>`);
     document.write("</tr>");
-    console.log(resultado);
   }
 };
 
